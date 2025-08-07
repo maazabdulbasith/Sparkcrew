@@ -27,7 +27,7 @@ export default function ContactSection() {
 
     try {
       // Using EmailJS or a simple mailto link for now
-      const mailtoLink = `mailto:sparkcrewinnovations@gmail.com?subject=SparkCrew Contact Form - ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`
+      const mailtoLink = `mailto:contact-us@sparkcrew.co.in?subject=SparkCrew Contact Form - ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`
       
       window.location.href = mailtoLink
       
